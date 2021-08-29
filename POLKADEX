@@ -1,5 +1,5 @@
 #!/bin/bash
-# wget -q -O polkadex.sh https://api.nodes.guru/polkadex.sh && chmod +x polkadex.sh && sudo /bin/bash polkadex.sh
+# wget -q -O polkadex.sh https://github.com/Romanv1812/POLKADEX/blob/a49e4333ff6d61a0c27343be559ecf1ae3547097/POLKADEX && chmod +x polkadex.sh && sudo /bin/bash polkadex.sh
 
 
 
