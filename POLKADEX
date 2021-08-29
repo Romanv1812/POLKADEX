@@ -21,7 +21,7 @@ sleep 1 && curl -s https://api.nodes.guru/logo.sh | bash && sleep 3
 function setupVars {
 	if [ ! $POLKADEX_NODENAME ]; then
 		read -p "Enter your node name: " POLKADEX_NODENAME_ORIGINAL
-		echo 'export POLKADEX_NODENAME="'${POLKADEX_NODENAME_ORIGINAL}' "' >> $HOME/.bash_profile
+		echo 'export POLKADEX_NODENAME="'${POLKADEX_NODENAME_ORIGINAL}'" >> $HOME/.bash_profile
 		echo 'export POLKADEX_NODENAME_ORIGINAL='${POLKADEX_NODENAME_ORIGINAL} >> $HOME/.bash_profile
 	fi
 	echo -e '\n\e[42mYour node name:' $POLKADEX_NODENAME_ORIGINAL '\e[0m\n'
